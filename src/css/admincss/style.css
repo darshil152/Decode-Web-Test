@@ -1,0 +1,204 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.a-boxsize {
+
+    width: 340px;
+    height: 30px;
+    margin: 10px 10px;
+}
+
+.a-box2 {
+    width: 522px;
+    height: 30px;
+    margin: 10px 10px;
+}
+
+.a-box3 {
+    width: 100px;
+    height: 30px;
+    margin: 10px;
+}
+
+
+.a-name-div {
+    display: flex;
+
+}
+
+.a-label {
+    margin: 0px 10px;
+    font-size: 20px;
+}
+
+fieldset {
+    margin-bottom: 40px;
+    border-color: #034F8D;
+    padding-top: 20px;
+}
+
+legend {
+    font-size: 25px;
+    margin-left: 30px;
+}
+
+input::placeholder {
+    position: relative;
+    left: 10px;
+    font-size: 15px;
+}
+
+input {
+
+    outline: none;
+
+}
+
+.a-boxsize:focus {
+    outline: none;
+    box-shadow: 1px 1px 4px #034F8D;
+    border-top: none;
+    border-left: none;
+}
+
+.a-box2:focus {
+    outline: none;
+    box-shadow: 1px 1px 4px #034F8D;
+    border-top: none;
+    border-left: none;
+}
+
+.inline {
+    display: flex;
+}
+
+.a-radio {
+    margin: 15px 0px 0px;
+}
+
+input[type=submit] {
+    width: 150px;
+    height: 40px;
+    background-color: #034F8D;
+    color: #fff;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-size: 15px;
+}
+
+
+
+img.profilepicture {
+    height: 150px;
+    border-radius: 50px;
+}
+
+h3.userdetails {
+    font-weight: 500;
+}
+
+
+.User {
+    display: inline-flex;
+    margin-left: 15px;
+}
+
+label.labels {
+    font-size: 20px;
+    font-weight: 800;
+    color: black;
+    font-family: inherit;
+}
+
+h6.username {
+    font-size: 26px;
+    margin-left: 15px;
+}
+
+.fa-envelope:before {
+    /* color: black; */
+    content: "\f0e0";
+    /* font-size: 30px; */
+}
+
+i.fa.fa-user {
+    color: black;
+    content: "\f0e0";
+    font-size: 30px;
+}
+
+i.fa.fa-birthday-cake {
+    color: black;
+    content: "\f0e0";
+    font-size: 30px;
+}
+
+i.fa.fa-mobile {
+    color: black;
+    content: "\f0e0";
+    font-size: 30px;
+}
+
+i.fas.fa-graduation-cap {
+    color: black;
+    content: "\f0e0";
+    font-size: 30px;
+}
+
+i.fa.fa-link {
+    color: black;
+    content: "\f0e0";
+    font-size: 30px;
+}
+
+i.fas.fa-briefcase {
+    color: black;
+    content: "\f0e0";
+    font-size: 30px;
+}
+
+span.spans {
+    font-size: 30px;
+    font-family: 'Jost', sans-serif;
+    color: black;
+}
+
+.container.mt-5.studentdetail {
+    background: #FFFFFF;
+    box-shadow: 5px 6px 25px rgb(15 15 15 / 15%);
+    border-radius: 20px;
+}
+
+.container.mt-5.parentdetails {
+    background: #FFFFFF;
+    box-shadow: 5px 6px 25px rgb(15 15 15 / 15%);
+    border-radius: 20px;
+}
+
+.container.mt-5.residentalDetail {
+    background: #FFFFFF;
+    box-shadow: 5px 6px 25px rgb(15 15 15 / 15%);
+    border-radius: 20px;
+}
+
+i.fa-sharp.fa-solid.fa-city {
+    color: black;
+    content: "\f0e0";
+    font-size: 30px;
+}
+
+i.fa.fa-map-marker {
+    color: black;
+    content: "\f0e0";
+    font-size: 30px;
+}
+
+i.fa.fa-inr {
+    color: black;
+    content: "\f0e0";
+    font-size: 30px;
+}

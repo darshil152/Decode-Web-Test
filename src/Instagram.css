@@ -1,0 +1,197 @@
+.abc {
+    box-shadow: rgba(0, 0, 0, 0.05) 0px 6px 24px 0px, rgba(0, 0, 0, 0.08) 0px 0px 0px 1px;
+    font-family: 'Jost', sans-serif;
+    font-weight: bold
+}
+
+.comment {
+    color: #0a508c !important;
+}
+
+.comment-desing {
+    display: flex;
+    justify-content: space-between;
+
+}
+
+
+#style-1::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    border-radius: 10px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar {
+    width: 12px;
+    background-color: #F5F5F5;
+}
+
+#style-1::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, .3);
+    background-color: #0a508c !important;
+}
+
+#style-3::-webkit-scrollbar-track {
+    -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+    background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar {
+    width: 6px;
+    background-color: #F5F5F5;
+}
+
+#style-3::-webkit-scrollbar-thumb {
+    background-color: #000000;
+}
+
+.main-image {
+    width: 100%;
+    object-fit: cover;
+    object-position: top center;
+}
+
+.post {
+    position: relative;
+    cursor: pointer;
+
+}
+
+.insta-post {
+    max-width: 400px;
+    height: auto;
+    border-radius: 5px;
+}
+
+
+
+.likes {
+    font-size: 1.5em;
+    margin-top: 8px;
+    color: #3a3a3a;
+}
+
+.like-modal-height {
+    height: 300px;
+}
+
+.btn:disabled {
+    background-color: transparent;
+    border: none;
+    outline: none;
+}
+
+
+
+.heart-icon {
+    position: absolute;
+    top: 38%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    filter: drop-shadow(0 19px 38px rgba(0, 0, 0, 0.7));
+    transform-origin: center center;
+    width: 0;
+}
+
+.icon {
+    font-size: medium;
+}
+
+.comment-div {
+    max-height: 390px;
+
+    overflow-x: hidden;
+    overflow-y: scroll;
+}
+
+.custom-backdrop {
+    background-color: rgba(0, 0, 0, 0.5);
+    /* Semi-transparent black background */
+}
+
+/* Tap animation */
+.animate-like {
+    animation: 2s animateLike ease-in-out;
+}
+
+.liked-icon {
+    color: red;
+}
+
+.font-size {
+    font-size: 1rem;
+}
+
+@keyframes animateLike {
+    0% {
+        width: 0;
+    }
+
+    5% {
+        width: 180px;
+    }
+
+    10% {
+        width: 150px;
+    }
+
+    20%,
+    35% {
+        width: 160px;
+    }
+
+    40%,
+    100% {
+        width: 0;
+    }
+}
+
+.add-post {
+    float: right;
+    position: fixed;
+    right: 25px;
+    top: 20px;
+    z-index: 9999;
+}
+
+.like-modal {
+    /* position: fixed; */
+    /* max-height: 500px; */
+    max-height: 450px !important;
+    overflow-y: scroll !important;
+    /* position: fixed !important; */
+}
+
+.offcanvas-bottom {
+    position: fixed;
+    bottom: 350px;
+    z-index: 99999999999999999999999;
+    background-color: white;
+    left: 0;
+    right: 0;
+    height: 450px;
+    /* Adjust this value to control the Offcanvas height */
+    transform: translate3d(0, 100%, 0);
+    transition: transform 0.3s ease-in-out;
+}
+
+.offcanvas.show2 {
+    transform: translate3d(0, 0, 0);
+}
+
+.full-screen {
+    display: none;
+}
+
+@media only screen and (max-width: 500px) {
+    .main-image {
+        height: 300px;
+    }
+
+
+
+
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Jost:wght@300&display=swap');
