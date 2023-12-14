@@ -7,7 +7,7 @@ export default class Footer extends Component {
         return (
             <>
 
-                <div className="container-fluid position-relative overlay-top bg-dark text-white-50 py-5" style={{ marginTop: '90px' }}>
+                <div className="container-fluid position-relative overlay-top bg-dark footer-bg text-white-50 py-5" style={{ marginTop: '90px' }}>
                     <div className="container mt-5 pt-5">
                         <div className="row">
                             <div className="col-md-6 mb-5">
@@ -25,7 +25,7 @@ export default class Footer extends Component {
                                             <input type="text" className="form-control border-light" style="padding: 30px;"
                                                 placeholder="Your Email Address">
                                                 <div className="input-group-append">
-                                                    <button className="btn btn-primary px-4">Sign Up</button>
+                                                    <button className="btn btn-primary primary-btn px-4">Sign Up</button>
                                                 </div>
                                         </div>
                                     </div>
@@ -35,23 +35,23 @@ export default class Footer extends Component {
                             <div className="col-md-4 mb-5">
                                 <h3 className="text-white mb-4">Get In Touch</h3>
                                 <p> <a className="text-white-50" href="https://goo.gl/maps/tY68pnXuMjLQ1Jc19" target="_blank"><i
-                                    className="fa fa-map-marker-alt mr-2"></i>
+                                    className="fa fa-map-marker-alt me-2"></i>
                                     304, Dhara Arcade, Mahadev Chowk, Mota
                                     Varachha, Surat</a></p>
                                 <p>
-                                    <a className="text-white-50" href="tel:8347763858"> <i className="fa fa-phone mr-2"></i>+91 834 776
+                                    <a className="text-white-50" href="tel:8347763858"> <i className="fa fa-phone me-2"></i>+91 834 776
                                         3858</a>
                                 </p>
                                 <p>
                                     <a className="text-white-50" href="mailto:hr@decodesofttech.com">
-                                        <i className="fa fa-envelope mr-2"></i>
+                                        <i className="fa fa-envelope me-2"></i>
                                         hr@decodesofttech.com </a>
                                 </p>
                                 <div className="d-flex justify-content-start mt-4">
-                                    <a className="text-white mr-4" target='_blank' href="#"><i className="fab fa-2x fa-twitter"></i></a>
-                                    <a className="text-white mr-4" target='_blank' href="https://www.facebook.com/Decode-Softtech-108716078502384"><i
+                                    <a className="text-white me-4" target='_blank' href="#"><i className="fab fa-2x fa-twitter"></i></a>
+                                    <a className="text-white me-4" target='_blank' href="https://www.facebook.com/Decode-Softtech-108716078502384"><i
                                         className="fab fa-2x fa-facebook-f"></i></a>
-                                    <a className="text-white mr-4" target='_blank' href="https://www.linkedin.com/company/81620839/admin/"><i
+                                    <a className="text-white me-4" target='_blank' href="https://www.linkedin.com/company/81620839/admin/"><i
                                         className="fab fa-2x fa-linkedin-in"></i></a>
                                     <a className="text-white" target='_blank' href="https://www.instagram.com/decodesofttech/"><i
                                         className="fab fa-2x fa-instagram"></i></a>
@@ -60,48 +60,48 @@ export default class Footer extends Component {
                             <div className="col-md-4 mb-5">
                                 <h3 className="text-white mb-4">We Provide</h3>
                                 <div className="d-flex flex-column justify-content-start">
-                                    <a className="text-white-50 mb-2" href="/details/1"><i className="fa fa-angle-right mr-2"></i>Web Design</a>
-                                    <a className="text-white-50 mb-2" href="/details/2"><i className="fa fa-angle-right mr-2"></i>Frontend
+                                    <a className="text-white-50 mb-2" href="/details/1"><i className="fa fa-angle-right me-2"></i>Web Design</a>
+                                    <a className="text-white-50 mb-2" href="/details/2"><i className="fa fa-angle-right me-2"></i>Frontend
                                         Development</a>
-                                    <a className="text-white-50 mb-2" href="/details/3"><i className="fa fa-angle-right mr-2"></i>Backend
+                                    <a className="text-white-50 mb-2" href="/details/3"><i className="fa fa-angle-right me-2"></i>Backend
                                         Development</a>
-                                    <a className="text-white-50 mb-2" href="/details/4"><i className="fa fa-angle-right mr-2"></i>Fullstack
+                                    <a className="text-white-50 mb-2" href="/details/4"><i className="fa fa-angle-right me-2"></i>Fullstack
                                         Development</a>
-                                    <a className="text-white-50 mb-2" href="/details/6"><i className="fa fa-angle-right mr-2"></i>Firebase</a>
-                                    <a className="text-white-50 mb-2" href="/details/5"><i className="fa fa-angle-right mr-2"></i>360 & 3D
+                                    <a className="text-white-50 mb-2" href="/details/6"><i className="fa fa-angle-right me-2"></i>Firebase</a>
+                                    <a className="text-white-50 mb-2" href="/details/5"><i className="fa fa-angle-right me-2"></i>360 & 3D
                                         Website</a>
-                                    <a className="text-white-50 mb-2" href="/details/2"><i className="fa fa-angle-right mr-2"></i>React Js</a>
-                                    <a className="text-white-50 " href="/details/3 "><i className="fa fa-angle-right mr-2"></i>Node Js</a>
+                                    <a className="text-white-50 mb-2" href="/details/2"><i className="fa fa-angle-right me-2"></i>React Js</a>
+                                    <a className="text-white-50 " href="/details/3 "><i className="fa fa-angle-right me-2"></i>Node Js</a>
                                 </div>
                             </div>
                             <div className="col-md-4 mb-5">
                                 <h3 className="text-white mb-4">Quick Links</h3>
                                 <div className="d-flex flex-column justify-content-start">
-                                    <Link className="text-white-50 mb-2" to={'/'}><i className="fa fa-angle-right mr-2"></i>Home</Link>
-                                    {/* <a className="text-white-50 mb-2" href="/"><i className="fa fa-angle-right mr-2"></i>Home</a> */}
+                                    <Link className="text-white-50 mb-2" to={'/'}><i className="fa fa-angle-right me-2"></i>Home</Link>
+                                    {/* <a className="text-white-50 mb-2" href="/"><i className="fa fa-angle-right me-2"></i>Home</a> */}
                                     {/* <a className="text-white-50 mb-2" href="/about">
-                                        <i className="fa fa-angle-right mr-2"></i>About Us</a> */}
-                                    <Link className="text-white-50 mb-2" to={'/about'}> <i className="fa fa-angle-right mr-2"></i>About Us</Link>
+                                        <i className="fa fa-angle-right me-2"></i>About Us</a> */}
+                                    <Link className="text-white-50 mb-2" to={'/about'}> <i className="fa fa-angle-right me-2"></i>About Us</Link>
                                     {/* <a className="text-white-50 mb-2" href="/courses">
-                                        <i className="fa fa-angle-right mr-2"></i>Courses</a> */}
-                                    <Link className="text-white-50 mb-2" to={'/courses'}><i className="fa fa-angle-right mr-2"></i>Courses</Link>
-                                    {/* <a className="text-white-50 mb-2" href="#"><i className="fa fa-angle-right mr-2"></i>Terms &
+                                        <i className="fa fa-angle-right me-2"></i>Courses</a> */}
+                                    <Link className="text-white-50 mb-2" to={'/courses'}><i className="fa fa-angle-right me-2"></i>Courses</Link>
+                                    {/* <a className="text-white-50 mb-2" href="#"><i className="fa fa-angle-right me-2"></i>Terms &
                                         Condition</a> */}
-                                    <Link className="text-white-50 mb-2" to={'/terms'}><i className="fa fa-angle-right mr-2"></i>Terms &
+                                    <Link className="text-white-50 mb-2" to={'/terms'}><i className="fa fa-angle-right me-2"></i>Terms &
                                         Condition</Link>
-                                    <Link className="text-white-50 mb-2" to={'/placement-partners'}><i className="fa fa-angle-right mr-2"></i>Placement Partners</Link>
+                                    <Link className="text-white-50 mb-2" to={'/placement-partners'}><i className="fa fa-angle-right me-2"></i>Placement Partners</Link>
                                     {/* <a className="text-white-50" href="/contact">
-                                        <i className="fa fa-angle-right mr-2"></i>Contact Us</a> */}
-                                    <Link className="text-white-50 mb-2" to={'/gallery'}><i className="fa fa-angle-right mr-2"></i>Our Activity</Link>
-                                    <Link className="text-white-50 mb-2" to={'/career'}><i className="fa fa-angle-right mr-2"></i>Career</Link>
-                                    <Link className="text-white-50 mb-2" to={'/contact'}><i className="fa fa-angle-right mr-2"></i>Contact Us</Link>
+                                        <i className="fa fa-angle-right me-2"></i>Contact Us</a> */}
+                                    <Link className="text-white-50 mb-2" to={'/gallery'}><i className="fa fa-angle-right me-2"></i>Our Activity</Link>
+                                    <Link className="text-white-50 mb-2" to={'/career'}><i className="fa fa-angle-right me-2"></i>Career</Link>
+                                    <Link className="text-white-50 mb-2" to={'/contact'}><i className="fa fa-angle-right me-2"></i>Contact Us</Link>
 
                                 </div>
                             </div>
                         </div>
                     </div>
                 </div>
-                <div className="container-fluid bg-dark text-white-50 border-top py-4 border-color">
+                <div className="container-fluid bg-dark footer-bg text-white-50 border-top py-4 border-color">
                     <div className="container">
                         <div className="row">
                             <div className="col-md-6 text-center text-md-left mb-3 mb-md-0">
@@ -117,7 +117,7 @@ export default class Footer extends Component {
                         </div>
                     </div>
                 </div>
-                <a href="#" className="btn btn-lg btn-primary rounded-0 btn-lg-square back-to-top"><i
+                <a href="#" className="btn btn-lg btn-primary primary-btn rounded-0 btn-lg-square back-to-top"><i
                     className="fa fa-angle-double-up"></i></a>
             </>
         )

@@ -232,7 +232,7 @@ export default function Placement() {
                     return (
                         <>
 
-                            <button onClick={() => handleShow1(value, tableMeta)} className='btn btn-primary'>View</button>
+                            <button onClick={() => handleShow1(value, tableMeta)} className='btn btn-primary primary-btn'>View</button>
                         </>
                     );
 
@@ -409,7 +409,7 @@ export default function Placement() {
     return (
         <AdminLayout>
             <div className="content-main-section">
-                <button className='btn btn-primary' onClick={handleShow}>+</button>
+                <button className='btn btn-primary primary-btn' onClick={handleShow}>+</button>
                 <h1 className='text-center'>Placement Cell</h1>
 
 

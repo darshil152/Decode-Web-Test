@@ -401,7 +401,7 @@ export default function Instagram() {
 
             <div className="container-fluid pt-5 pb-5 ps-0 pe-0 overflow-hidden">
 
-                {Param === "socialmedia" ? (<><button id='addPost' className='btn btn-primary add-post' onClick={handleShow2}> New Post</button></>) : (<></>)}
+                {Param === "socialmedia" ? (<><button id='addPost' className='btn btn-primary primary-btn add-post' onClick={handleShow2}> New Post</button></>) : (<></>)}
 
                 <div className="row d-flex justify-content-center pt-5 m-0 p-0">
                     <div className="col-lg-2"></div>

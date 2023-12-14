@@ -50,6 +50,7 @@ export default function Login() {
             });
 
             setuserData(data)
+            console.log(data)
 
         }).catch(err => {
             console.error(err)

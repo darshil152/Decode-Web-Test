@@ -62,13 +62,13 @@ export default class ReferenceDetails extends Component {
                                     <div className='mt-4'>
                                         <h1>reference Details</h1>
                                     </div>
-                                    <div className='mt-lg-4 mt-sm-4 ml-lg-4 text-left'>
+                                    <div className='mt-lg-4 mt-sm-4 ms-lg-4 text-left'>
                                         <i className="fa fa-link usernames" aria-hidden="true"></i>
-                                        <label className="labelData ml-3">{this.state.referencedata.f_name}</label>
+                                        <label className="labelData ms-3">{this.state.referencedata.f_name}</label>
                                     </div>
-                                    <div className='mt-lg-4 mt-sm-4 ml-lg-4 mb-4 text-left'>
+                                    <div className='mt-lg-4 mt-sm-4 ms-lg-4 mb-4 text-left'>
                                         <i className="fa fa-inr usernames" aria-hidden="true"></i>
-                                        <label className="labelData ml-3  ">2000</label>
+                                        <label className="labelData ms-3  ">2000</label>
                                     </div>
 
                                 </div>

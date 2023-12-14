@@ -97,7 +97,7 @@ export default class Chart extends Component {
                             </select>
 
 
-                            <button className='btn btn-primary' onClick={this.getprice}> Get Price</button>
+                            <button className='btn btn-primary primary-btn' onClick={this.getprice}> Get Price</button>
                         </div>
                     </div>
                 </div>

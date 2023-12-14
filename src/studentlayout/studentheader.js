@@ -65,7 +65,7 @@ export default class studentheader extends Component {
                 {value => <>
                     <header className="header-fix-top-section">
                         <div onClick={this.addmainclass} className="d-xl-none abce">
-                            <img src={menu} className="me-3 mr-3 imgmenu" alt="arrow" />
+                            <img src={menu} className="me-3 me-3 imgmenu" alt="arrow" />
                         </div>
 
 
@@ -83,7 +83,7 @@ export default class studentheader extends Component {
                                             </div>
 
 
-                                            <div className=" pl-3 text-start">
+                                            <div className=" ps-3 text-start">
                                                 <span className="d-block">{value.state.currentStudentData.f_name + ' ' + value.state.currentStudentData.l_name}</span>
                                                 <bdi className="d-block">{value.state.currentStudentData.er_num}</bdi>
                                             </div>

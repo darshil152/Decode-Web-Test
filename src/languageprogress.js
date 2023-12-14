@@ -587,7 +587,7 @@ export default class Languageprogresss extends Component {
                             {
                                 this.state.langauages.map((item) => {
                                     return (
-                                        <div onClick={() => this.openModal(item)} className='col-lg-12  htmcard ml-'>
+                                        <div onClick={() => this.openModal(item)} className='col-lg-12  htmcard ms-'>
                                             <h1 className='mt-3 text-left text-center textcolots' >Course: {item.language}</h1>
 
                                             {/* <label className="lablelanguage">Progress: </label>

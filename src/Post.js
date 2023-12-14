@@ -1,7 +1,7 @@
 import React from 'react'
 import { forwardRef, useImperativeHandle, useRef } from 'react';
 import moment from 'moment';
-import "./App.css"
+
 import Accordion from '@mui/material/Accordion';
 import AccordionSummary from '@mui/material/AccordionSummary';
 import AccordionDetails from '@mui/material/AccordionDetails';
@@ -150,7 +150,7 @@ const Post = forwardRef((props, ref) => {
 
 
                         </div>
-                        <div className='col-lg-12 p-2 ml-3 p-0' >
+                        <div className='col-lg-12 p-2 ms-3 p-0' >
                             <span>{alldata.caption}</span>
                             <p className='p-0 m-0 text-capitalize font-weight-bold' onClick={() => handleShow(alldata)}>{alldata.likeCount}Likes</p>
                         </div>
@@ -200,13 +200,13 @@ const Post = forwardRef((props, ref) => {
 
                                                     <div>
                                                         <div className="comment-desing">
-                                                            <p className='ml-2'>
+                                                            <p className='ms-2'>
                                                                 <b>{i.user}</b>
                                                                 <br />
-                                                                <span className='ml-2'>~ {i.comment}</span>
+                                                                <span className='ms-2'>~ {i.comment}</span>
                                                             </p>
 
-                                                            <p className='mr-3' style={{ textAlign: "end" }} >{formattedDate}
+                                                            <p className='me-3' style={{ textAlign: "end" }} >{formattedDate}
                                                                 <br />
                                                                 {i.user === localStorage.getItem("user_name") && (
                                                                     <FontAwesomeIcon className='' onClick={() => deletecomment(i.user, i.commitAT)} icon={faTrash} />
@@ -254,13 +254,13 @@ const Post = forwardRef((props, ref) => {
                                                 return (
                                                     <div>
                                                         <div className="comment-desing">
-                                                            <p className='ml-2'>
+                                                            <p className='ms-2'>
                                                                 <b>{i.user}</b>
                                                                 <br />
-                                                                <span className='ml-2'>~ {i.comment}</span>
+                                                                <span className='ms-2'>~ {i.comment}</span>
                                                             </p>
 
-                                                            <p className='mr-3' style={{ textAlign: "end" }}>{formattedDate}
+                                                            <p className='me-3' style={{ textAlign: "end" }}>{formattedDate}
                                                                 <br />
                                                                 {i.user === localStorage.getItem("user_name") && (
                                                                     <FontAwesomeIcon className='' onClick={() => deletecomment(i.user, i.commitAT)} icon={faTrash} />

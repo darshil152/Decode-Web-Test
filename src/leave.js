@@ -133,7 +133,7 @@ export default class leave extends Component {
                         customBodyRender: (value, tableMeta, updateValue) => {
                             return (
                                 <>
-                                    {tableMeta.rowData[4] == 0 ? < button className='btn btn-primary' onClick={() => this.removeleave(value, tableMeta)} style={{ padding: "10px", width: "90px", borderRadius: "15px" }}>Remove</button > : < button disabled title="Can't Delete this leave application" className='btn btn-primary' style={{ padding: "10px", width: "90px", borderRadius: "15px" }}>Remove</button >}
+                                    {tableMeta.rowData[4] == 0 ? < button className='btn btn-primary primary-btn' onClick={() => this.removeleave(value, tableMeta)} style={{ padding: "10px", width: "90px", borderRadius: "15px" }}>Remove</button > : < button disabled title="Can't Delete this leave application" className='btn btn-primary primary-btn' style={{ padding: "10px", width: "90px", borderRadius: "15px" }}>Remove</button >}
                                 </>
                             );
                         },
@@ -456,9 +456,9 @@ export default class leave extends Component {
 
                                 <div className='container'>
                                     <div className='row mt-5' >
-                                        <Button variant="primary" onClick={this.openModal}>
+                                        <button className='btn btn-primary primary-btn' style={{ width: 'auto' }} onClick={this.openModal}>
                                             Apply for leave application
-                                        </Button>
+                                        </button>
 
 
                                     </div>
@@ -545,7 +545,7 @@ export default class leave extends Component {
                                                                         <div className="inputDivs">
                                                                             <label className='lablepeoject' for="file">leave Proofs:</label>
                                                                             <label className="input-file">
-                                                                                <b className="btn btn-primary">
+                                                                                <b className="btn btn-primary primary-btn">
                                                                                     <i className="material-icons"></i> Choose a File</b>
                                                                                 <input type="file" className="fileInput" onChange={this.handleFileChange} multiple />
                                                                             </label>
@@ -591,7 +591,7 @@ export default class leave extends Component {
                                             <Button variant="secondary" onClick={this.closeModal1}>
                                                 Close
                                             </Button>
-                                            <Button variant="btn btn-primary" onClick={this.removefinalleave}>
+                                            <Button variant="btn btn-primary primary-btn" onClick={this.removefinalleave}>
                                                 Confirm
                                             </Button>
 

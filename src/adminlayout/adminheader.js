@@ -16,7 +16,7 @@ function AdminHeader(props) {
         <>
             <header className="header-fix-top-section">
                 <div onClick={addmainclass} className="d-xl-none abce">
-                    <img src={menu} className="me-3 mr-3 imgmenu" alt="arrow" />
+                    <img src={menu} className="me-3 me-3 imgmenu" alt="arrow" />
                 </div>
                 {/* <div className="hdr-top-info d-flex align-items-center">
                     <span className="me-2">
@@ -32,7 +32,7 @@ function AdminHeader(props) {
                                 <Dropdown.Toggle id="dropdown" >
                                     <img src={Profile} alt="profile" />
 
-                                    <div className="pl-3 text-start">
+                                    <div className="ps-3 text-start">
                                         <span className="d-block">Heaven Kapopara</span>
                                         <bdi className="d-block">heaven@decodesofttech.com</bdi>
                                     </div>

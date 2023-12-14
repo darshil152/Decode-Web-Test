@@ -19,12 +19,12 @@ export default class NavbarComponent extends Component {
     render() {
         return (
             <div className="container-fluid p-0">
-                <Navbar bg="white" expand="lg" className='py-3 py-lg-0 px-lg-4'>
+                <Navbar bg="white" expand="lg" className='py-3 py-lg-0 px-3'>
 
                     <Navbar.Brand href="/"> <img className="m-0 logo" src={logo} alt="Decode Softtech" /></Navbar.Brand>
                     <Navbar.Toggle aria-controls="basic-navbar-nav" />
                     <Navbar.Collapse id="basic-navbar-nav">
-                        <Nav className="navbar-light py-3 py-lg-0 px-lg-5">
+                        <Nav className="navbar-light py-3 py-lg-0 px-lg-4">
                             <Link to={'/'} className={this.state.currentPage == '' ? "nav-item nav-link active" : "nav-item nav-link "}>Home</Link>
                             <Link to={'/about'} className={this.state.currentPage == 'about' ? "nav-item nav-link active" : "nav-item nav-link "}>About</Link>
                             <Link to={'/courses'} className={this.state.currentPage == 'courses' ? "nav-item nav-link active" : "nav-item nav-link "}>Courses</Link>
@@ -55,7 +55,7 @@ export default class NavbarComponent extends Component {
 
                         </Nav>
 
-                        <Link to={'/login'} className={this.state.currentPage == 'login' ? "nav-item nav-link active" : "nav-item nav-link btn btn-primary me-auto ml-lg-auto loginwidth"}>Login</Link>
+                        <Link to={'/login'} className={this.state.currentPage == 'login' ? "nav-item nav-link active" : " ms-lg-auto btn btn-primary primary-btn loginwidth"}>Login</Link>
 
                     </Navbar.Collapse>
                 </Navbar>

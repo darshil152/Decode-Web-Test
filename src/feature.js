@@ -8,7 +8,7 @@ export default class Feature extends Component {
                     <div className="row">
                         <div className="col-lg-7 my-5 pt-5 pb-lg-5">
                             <div className="section-title position-relative mb-4">
-                                <h6 className="d-inline-block position-relative text-secondary text-uppercase pb-2">Why Choose Us?
+                                <h6 className="d-inline-block position-relative text-secondary secondary-text text-uppercase pb-2">Why Choose Us?
                                 </h6>
                                 <h1 className="display-4 my-5">Why You Should Start Learning with Us?</h1>
                             </div>
@@ -16,7 +16,7 @@ export default class Feature extends Component {
                                         amet voluptua duo dolores et sit ipsum rebum, sadipscing et erat eirmod diam kasd labore clita
                                         est. Diam sanctus gubergren sit rebum clita amet.</p> --> */}
                             <div className="d-flex mb-3">
-                                <div className="btn-icon bg-primary mr-4">
+                                <div className="btn-icon bg-primary primary-btn me-4">
                                     <i className="fa fa-2x fa-graduation-cap text-white"></i>
                                 </div>
                                 <div className="mt-auto mb-auto">
@@ -25,7 +25,7 @@ export default class Feature extends Component {
                                 </div>
                             </div>
                             <div className="d-flex mb-3">
-                                <div className="btn-icon bg-secondary mr-4">
+                                <div className="btn-icon bg-secondary secondary-btn me-4">
                                     <i className="fa fa-2x fa-certificate text-white"></i>
                                 </div>
                                 <div className="mt-auto mb-auto">
@@ -34,7 +34,7 @@ export default class Feature extends Component {
                                 </div>
                             </div>
                             <div className="d-flex">
-                                <div className="btn-icon bg-warning mr-4">
+                                <div className="btn-icon bg-warning me-4">
                                     <i className="fa fa-2x fa-book-reader text-white"></i>
                                 </div>
                                 <div className="mt-auto mb-auto">
@@ -45,7 +45,7 @@ export default class Feature extends Component {
                         </div>
                         <div className="col-lg-5 min-h-500" >
                             <div data-aos="flip-up" data-aos-duration="1500" className="position-relative h-100">
-                                <img className="position-absolute w-100 h-100 img-cover " src={featureimg} />
+                                <img className="position-absolute w-100 h-100 object-fit-cover " src={featureimg} />
                             </div>
                         </div>
                     </div>

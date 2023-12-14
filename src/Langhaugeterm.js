@@ -108,7 +108,7 @@ export default class Langhaugeterm extends Component {
                         <div className='container'>
                             <div className='row'>
                                 <div className='col-lg-12' style={{ textAlign: "end " }}>
-                                    <button className="btn btn-primary mt-5" onClick={this.chagees}>{this.state.language == true ? 'English' : 'Gujarati'}</button>
+                                    <button className="btn btn-primary primary-btn mt-5" onClick={this.chagees}>{this.state.language == true ? 'English' : 'Gujarati'}</button>
                                 </div>
                             </div>
                             <ul className='rules'>

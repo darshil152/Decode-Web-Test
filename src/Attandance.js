@@ -225,13 +225,13 @@ export default function Attandance() {
                     return (
                         <div onChange={onChangeValue}>
                             <div className=' border m-1 p-1'>
-                                <label htmlFor='p' className='d-inline  mr-1'>  Present:</label><input id='p' type="radio" name="attandance" value="1" /><br></br>
+                                <label htmlFor='p' className='d-inline  me-1'>  Present:</label><input id='p' type="radio" name="attandance" value="1" /><br></br>
                             </div>
                             <div className=' border m-1 p-1'>
-                                <label htmlFor='a' className='d-inline  mr-1'> Absent:</label><input id='a' type="radio" name="attandance" value="0" /><br></br>
+                                <label htmlFor='a' className='d-inline  me-1'> Absent:</label><input id='a' type="radio" name="attandance" value="0" /><br></br>
                             </div>
                             <div className=' border m-1 p-1'>
-                                <label htmlFor='o' className='d-inline  mr-1'>Other:</label><input id='o' type="radio" name="attandance" value="2" /><br></br>
+                                <label htmlFor='o' className='d-inline  me-1'>Other:</label><input id='o' type="radio" name="attandance" value="2" /><br></br>
                             </div>
                         </div>
 
@@ -249,7 +249,7 @@ export default function Attandance() {
                 customBodyRender: (value, tableMeta, updateValue) => {
                     return (
                         <div>
-                            <button className='btn btn-primary ' onClick={() => submitform(value, tableMeta)}>Submit</button>
+                            <button className='btn btn-primary primary-btn ' onClick={() => submitform(value, tableMeta)}>Submit</button>
                         </div>
                     );
                 },

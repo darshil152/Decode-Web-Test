@@ -219,7 +219,7 @@ export default class Myprojects extends Component {
             <StudentLayout>
                 <div className="content-main-section">
                     <div className='container'>
-                        <button className='btn btn-primary m-4' onClick={this.openModal}>Add New Project</button>
+                        <button className='btn btn-primary primary-btn m-4' onClick={this.openModal}>Add New Project</button>
                         <div className='row'>
                             {
                                 this.state.stgithub && this.state.stgithub.length > 0 && this.state.stgithub.map((items) => {
@@ -253,7 +253,7 @@ export default class Myprojects extends Component {
 
                             <label className='lablepeoject' for="file">Projec Image:</label>
                             <label className="mt-3 input-file">
-                                <b className="btn btn-primary">
+                                <b className="btn btn-primary primary-btn">
                                     <i className="material-icons"></i> Choose a File</b>
                                 <input type="file" className="fileInput" onChange={this.handlefile} multiple />
                             </label>

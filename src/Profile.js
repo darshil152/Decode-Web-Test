@@ -463,10 +463,10 @@ export default class Profile extends Component {
                                 <div className='container showdiv mt-5 studentdetail' >
                                     <div className="row ">
                                         <div className="col-10 text-sm-center mt-3 mb-3">
-                                            <h1 className="text-left ml-3">Personal Detail</h1>
+                                            <h1 className="text-left ms-3">Personal Detail</h1>
                                         </div>
-                                        <div className="col-2 text-sm-center text-lg-right mt-3" >
-                                            <button className="buttonedit btn btn-primary btn-lg" onClick={this.openModal1}>
+                                        <div className="col-2 text-sm-center text-lg-end mt-3" >
+                                            <button className="buttonedit btn btn-primary primary-btn btn-lg" onClick={this.openModal1}>
                                                 <i className="fa fa-pencil" aria-hidden="true"></i></button>
                                         </div>
                                     </div>
@@ -478,49 +478,49 @@ export default class Profile extends Component {
 
                                     </div>
 
-                                    <div className='row ml-4'>
+                                    <div className='row ms-4'>
                                         <div className='col-lg-6'>
                                             <div className="row">
                                                 <div className="col-lg-4">
                                                     <div className='mt-lg-5 mt-5 d-flex text-left text-left'>
                                                         {/* <i className="fa fa-id-card usernames"></i> */}
-                                                        <label className="labelDatas ml-3 mb-2">Er_No:</label>
+                                                        <label className="labelDatas ms-3 mb-2">Er_No:</label>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-8">
-                                                    <label className="labelData mt-lg-5 ml-3 mb-2">{this.state.currentdata.er_num}</label>
+                                                    <label className="labelData mt-lg-5 ms-3 mb-2">{this.state.currentdata.er_num}</label>
                                                 </div>
 
 
 
                                                 <div className="col-lg-4">
                                                     <div className=' d-flex mt-4 text-left'>
-                                                        <label className="labelDatas mt-lg-4 ml-3 mb-2">Mobile No:</label>
+                                                        <label className="labelDatas mt-lg-4 ms-3 mb-2">Mobile No:</label>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-8">
-                                                    <label className="labelData mt-lg-5 ml-3">{this.state.currentdata.phone}</label>
+                                                    <label className="labelData mt-lg-5 ms-3">{this.state.currentdata.phone}</label>
                                                 </div>
 
 
                                                 <div className="col-lg-4">
                                                     <div className=' d-flex  mt-4 text-left'>
-                                                        <label className="labelDatas ml-3 mb-2">Course:</label>
+                                                        <label className="labelDatas ms-3 mb-2">Course:</label>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-8">
-                                                    <label className="labelData   ml-3">{this.state.currentdata.courses == 1 ? <label className="labelData">Master In Webdesign</label> : this.state.currentdata.courses == 2 ? <label className="labelData">Master In Frontend Development</label> : this.state.currentdata.courses == 3 ? <label className="labelData">Master In backend Development </label> : this.state.currentdata.courses == 4 ? <label className="labelData">firebase </label> : this.state.currentdata.courses == 5 ? <label className="labelData">Master in 360 & 3D Website</label> : this.state.currentdata.courses == 6 ? <label className="labelData">Master In Fullstack Development</label> : this.state.currentdata.courses == 7 ? <label className="labelData">Master In MERN-stack Development</label> : <div className='rendercon'></div>}</label>
+                                                    <label className="labelData   ms-3">{this.state.currentdata.courses == 1 ? <label className="labelData">Master In Webdesign</label> : this.state.currentdata.courses == 2 ? <label className="labelData">Master In Frontend Development</label> : this.state.currentdata.courses == 3 ? <label className="labelData">Master In backend Development </label> : this.state.currentdata.courses == 4 ? <label className="labelData">firebase </label> : this.state.currentdata.courses == 5 ? <label className="labelData">Master in 360 & 3D Website</label> : this.state.currentdata.courses == 6 ? <label className="labelData">Master In Fullstack Development</label> : this.state.currentdata.courses == 7 ? <label className="labelData">Master In MERN-stack Development</label> : <div className='rendercon'></div>}</label>
                                                 </div>
 
                                                 <div className="col-lg-4">
 
 
                                                     <div className=' d-flex mt-4  text-left'>
-                                                        <label className="labelDatas  ml-3 mb-2">Joining Date:</label>
+                                                        <label className="labelDatas  ms-3 mb-2">Joining Date:</label>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-8">
-                                                    <label className="labelData mt-lg-5  ml-3">{this.state.doj}</label>
+                                                    <label className="labelData mt-lg-5  ms-3">{this.state.doj}</label>
                                                 </div>
 
 
@@ -534,31 +534,31 @@ export default class Profile extends Component {
                                             <div className="row">
                                                 <div className="col-lg-3">
                                                     <div className='mt-lg-5 d-flex mt-4 text-left'>
-                                                        <label className="labelDatas ml-3 mb-2">Name:</label>
+                                                        <label className="labelDatas ms-3 mb-2">Name:</label>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-9">
-                                                    <label className="labelData  mt-lg-5  ml-3">{this.state.currentdata.f_name}  {this.state.currentdata.l_name}</label>
+                                                    <label className="labelData  mt-lg-5  ms-3">{this.state.currentdata.f_name}  {this.state.currentdata.l_name}</label>
                                                 </div>
 
 
                                                 <div className="col-lg-3">
                                                     <div className='mt-lg-5 d-flex mt-4 text-left'>
-                                                        <label className="labelDatas  ml-3 mb-2">Email:</label>
+                                                        <label className="labelDatas  ms-3 mb-2">Email:</label>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-9">
-                                                    <label className="labelData mt-lg-5 ml-3" style={{ wordBreak: "break-all" }}>{this.state.currentdata.email}</label>
+                                                    <label className="labelData mt-lg-5 ms-3" style={{ wordBreak: "break-all" }}>{this.state.currentdata.email}</label>
                                                 </div>
 
 
                                                 <div className="col-lg-3">
                                                     <div className=' mt-lg-5 d-flex mt-4 text-left '>
-                                                        <label className="labelDatas ml-3 mb-2">BirthDate:</label>
+                                                        <label className="labelDatas ms-3 mb-2">BirthDate:</label>
                                                     </div>
                                                 </div>
                                                 <div className="col-lg-9">
-                                                    <label className="labelData mt-lg-5 ml-3">{this.state.currentdata.dob}</label>
+                                                    <label className="labelData mt-lg-5 ms-3">{this.state.currentdata.dob}</label>
                                                 </div>
 
                                             </div>
@@ -592,28 +592,28 @@ export default class Profile extends Component {
                                                 <div className="row">
                                                     <div className="col-lg-4">
 
-                                                        <div className='mt-lg-4  d-flex mt-sm-4 ml-lg-4 text-left'>
-                                                            <label className="labelDatas ml-3 mb-2">Father Name:</label>
+                                                        <div className='mt-lg-4  d-flex mt-sm-4 ms-lg-4 text-left'>
+                                                            <label className="labelDatas ms-3 mb-2">Father Name:</label>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8">
-                                                        <label className="labelData mt-lg-4 ml-3">{this.state.currentdata.f_f_name}</label>
+                                                        <label className="labelData mt-lg-4 ms-3">{this.state.currentdata.f_f_name}</label>
                                                     </div>
                                                     <div className="col-lg-4">
-                                                        <div className='mt-lg-4  d-flex mt-sm-4 ml-lg-4 text-left'>
-                                                            <label className="labelDatas ml-3 mb-2">Occupation:</label>
+                                                        <div className='mt-lg-4  d-flex mt-sm-4 ms-lg-4 text-left'>
+                                                            <label className="labelDatas ms-3 mb-2">Occupation:</label>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8">
-                                                        <label className="labelData ml-3 mt-lg-4">{this.state.currentdata.occupation}</label>
+                                                        <label className="labelData ms-3 mt-lg-4">{this.state.currentdata.occupation}</label>
                                                     </div>
                                                     <div className="col-lg-4">
-                                                        <div className='mt-lg-4  d-flex mt-sm-4 ml-lg-4 mb-sm-4 text-left'>
-                                                            <label className="labelDatas ml-3 mb-2">Phone_no:</label>
+                                                        <div className='mt-lg-4  d-flex mt-sm-4 ms-lg-4 mb-sm-4 text-left'>
+                                                            <label className="labelDatas ms-3 mb-2">Phone_no:</label>
                                                         </div>
                                                     </div>
                                                     <div className="col-lg-8">
-                                                        <label className="labelData mt-lg-4 ml-3">{this.state.currentdata.f_phone}</label>
+                                                        <label className="labelData mt-lg-4 ms-3">{this.state.currentdata.f_phone}</label>
                                                     </div>
                                                 </div>
                                             </div>
@@ -629,8 +629,8 @@ export default class Profile extends Component {
                                                     <h1 className="text-left">
                                                         Residental Detail</h1>
                                                 </div>
-                                                <div className="col-2 text-sm-center text-lg-right mt-3" >
-                                                    <button className="buttonedit btn btn-primary btn-lg" onClick={this.openModal2}>
+                                                <div className="col-2 text-sm-center text-lg-end mt-3" >
+                                                    <button className="buttonedit btn btn-primary primary-btn btn-lg" onClick={this.openModal2}>
                                                         <i className="fa fa-pencil" aria-hidden="true"></i></button>
                                                 </div>
                                             </div>
@@ -638,7 +638,7 @@ export default class Profile extends Component {
 
                                                 <div className="row">
                                                     <div className="col-lg-4">
-                                                        <div className='mt-lg-4  d-flex mt-sm-4 ml-lg-4 text-left'>
+                                                        <div className='mt-lg-4  d-flex mt-sm-4 ms-lg-4 text-left'>
                                                             <label className="labelDatas  mb-2">Address line1:</label>
                                                         </div>
                                                     </div>
@@ -648,7 +648,7 @@ export default class Profile extends Component {
 
 
                                                     <div className="col-lg-4">
-                                                        <div className='mt-lg-4 d-flex mt-sm-4 ml-lg-4 text-left'>
+                                                        <div className='mt-lg-4 d-flex mt-sm-4 ms-lg-4 text-left'>
                                                             <label className="labelDatas  mb-2">Address line2:</label>
                                                         </div>
                                                     </div>
@@ -658,7 +658,7 @@ export default class Profile extends Component {
 
 
                                                     <div className="col-lg-4">
-                                                        <div className='mt-lg-4 d-flex mt-sm-4 ml-lg-4 mb-sm-4 text-left'>
+                                                        <div className='mt-lg-4 d-flex mt-sm-4 ms-lg-4 mb-sm-4 text-left'>
                                                             <label className="labelDatas   mb-2">City:</label>
                                                         </div>
                                                     </div>
@@ -688,7 +688,7 @@ export default class Profile extends Component {
                                     <Navbar collapseOnSelect expand="lg" >
                                         <Container>
                                             <Navbar.Brand >Rules & Regulations</Navbar.Brand>
-                                            <Navbar.Brand ><button className="btn btn-primary" onClick={this.chagees}>{this.state.language == true ? 'English' : 'Gujarati'}</button></Navbar.Brand>
+                                            <Navbar.Brand ><button className="btn btn-primary primary-btn" onClick={this.chagees}>{this.state.language == true ? 'English' : 'Gujarati'}</button></Navbar.Brand>
 
                                             <Navbar aria-controls="responsive-navbar-nav" />
                                             <Nav>
@@ -712,11 +712,11 @@ export default class Profile extends Component {
                                         name="agreement"
                                         onChange={this.handleChange}
                                     />
-                                    <label for="js" className="ml-3 mt-2" > I agree with all the terms and condition </label>
+                                    <label for="js" className="ms-3 mt-2" > I agree with all the terms and condition </label>
                                 </div>
                             </Modal.Body>
                             <Modal.Footer>
-                                <button className="btn btn-primary" disabled={!this.state.defaultcheked} onClick={this.clicks}>Continue</button>
+                                <button className="btn btn-primary primary-btn" disabled={!this.state.defaultcheked} onClick={this.clicks}>Continue</button>
                             </Modal.Footer>
                         </Modal>
 

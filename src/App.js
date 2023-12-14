@@ -6,7 +6,9 @@ import 'owl.carousel/dist/assets/owl.theme.default.css';
 import 'react-toastify/dist/ReactToastify.css';
 import AOS from 'aos';
 import 'aos/dist/aos.css';
-import './css/style.css'
+// import './css/style.css'
+import 'bootstrap/dist/css/bootstrap.min.css';
+import "./App.css"
 import HeaderContext from './contexts/HeaderContext';
 
 export default class App extends Component {

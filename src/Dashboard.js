@@ -301,7 +301,7 @@ export default function Dashboard() {
                 customBodyRender: (value, tableMeta, updateValue) => {
                     return (
                         <>
-                            <button className='btn btn-primary' onClick={() => viewuser(value)}>View</button>
+                            <button className='btn btn-primary primary-btn' onClick={() => viewuser(value)}>View</button>
                         </>
                     );
 
@@ -317,7 +317,7 @@ export default function Dashboard() {
                 customBodyRender: (value, tableMeta, updateValue) => {
                     return (
                         <>
-                            <button className='btn btn-primary' onClick={() => edituser(value)}>Edit</button>
+                            <button className='btn btn-primary primary-btn' onClick={() => edituser(value)}>Edit</button>
                         </>
                     );
 

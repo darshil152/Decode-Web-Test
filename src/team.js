@@ -23,7 +23,7 @@ export default class Team extends Component {
             <div className="container-fluid py-5">
                 <div className="container py-5">
                     <div className="section-title text-center position-relative mb-5">
-                        <h6 className="d-inline-block position-relative text-secondary text-uppercase pb-2">Instructors</h6>
+                        <h6 className="d-inline-block position-relative text-secondary secondary-text text-uppercase pb-2">Instructors</h6>
                         <h1 className="display-4">Meet Our Instructors</h1>
                     </div>
                     <OwlCarousel className='owl-carousel team-carousel position-relative' responsive={this.state.teamCarousel} smartSpeed={600} margin={30} items={3} loop={true} autoplay={true} nav={true}>

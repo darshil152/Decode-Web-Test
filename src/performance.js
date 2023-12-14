@@ -148,7 +148,7 @@ export default class Performance extends Component {
                                 </div>
                             </div>
                             <div className='col-lg-6 '>
-                                <button type='submit' className='btn btn-primary mt-5 text-center' onClick={this.handlesave}>Submit</button>
+                                <button type='submit' className='btn btn-primary primary-btn mt-5 text-center' onClick={this.handlesave}>Submit</button>
 
                             </div>
                         </div>

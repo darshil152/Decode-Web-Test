@@ -76,7 +76,7 @@ export default class Recruitment extends Component {
                         customBodyRender: (value, tableMeta, updateValue) => {
                             return (
                                 <>
-                                    <button className='btn btn-primary' onClick={() => this.view(value)}>View</button>
+                                    <button className='btn btn-primary primary-btn' onClick={() => this.view(value)}>View</button>
                                 </>
                             );
                         },

@@ -333,7 +333,7 @@ export default function Fees() {
                 customBodyRender: (value, tableMeta, updateValue) => {
                     return (
                         <div >
-                            <button className='btn btn-primary ' onClick={() => submitform(value, tableMeta)}>Submit</button>
+                            <button className='btn btn-primary primary-btn ' onClick={() => submitform(value, tableMeta)}>Submit</button>
                         </div>
                     );
                 },
@@ -348,7 +348,7 @@ export default function Fees() {
                 customBodyRender: (value, tableMeta, updateValue) => {
                     return (
                         <div >
-                            <button className='btn btn-primary ' onClick={() => showform(value)}>View</button>
+                            <button className='btn btn-primary primary-btn ' onClick={() => showform(value)}>View</button>
                         </div>
                     );
                 },

@@ -365,8 +365,8 @@ export default class Expensetable extends Component {
                                 <input type="date" className='form-control m-auto w-50' value={this.state.endDate} onChange={(e) => this.changedate2(e)} />
                             </div>
                             <div className='col-md-4 mt-3 m-lg-0'>
-                                <button onClick={this.getFinalExpenseData} className="btn btn-primary ml-5" >Submit</button>
-                                <button onClick={this.reset} className="btn btn-primary ml-5" >Reset</button>
+                                <button onClick={this.getFinalExpenseData} className="btn btn-primary primary-btn ms-5" >Submit</button>
+                                <button onClick={this.reset} className="btn btn-primary primary-btn ms-5" >Reset</button>
 
                             </div>
 
@@ -380,7 +380,7 @@ export default class Expensetable extends Component {
                                     <ThemeProvider theme={createTheme()}>
                                         <h4 className='text-center mt-5'> Total Amount : ₹ {this.state.total_income_amount} </h4>
                                         <div className="text-left mb-4">
-                                            <button className='btn btn-primary text-center ' onClick={this.openModal1}>Add income</button>
+                                            <button className='btn btn-primary primary-btn text-center ' onClick={this.openModal1}>Add income</button>
                                         </div>
                                         <div className='table-height'>
                                             <MUIDataTable
@@ -406,7 +406,7 @@ export default class Expensetable extends Component {
                                     <ThemeProvider theme={createTheme()}>
                                         <h4 className='text-center mt-5'> Total Amount : ₹ {this.state.total_expense_amount} </h4>
                                         <div className="text-left mb-4">
-                                            <button className='btn btn-primary' onClick={this.openModal}>Add Expenses</button>
+                                            <button className='btn btn-primary primary-btn' onClick={this.openModal}>Add Expenses</button>
                                         </div>
                                         <div className='table-height'>
                                             <MUIDataTable

@@ -58,7 +58,7 @@ export default class Gallery extends Component {
                         <div className="row mx-0 justify-content-center">
                             <div className="col-lg-8">
                                 <div className="section-title text-center position-relative mb-5">
-                                    <h6 className="d-inline-block position-relative text-secondary text-uppercase pb-2">Gallery</h6>
+                                    <h6 className="d-inline-block position-relative text-secondary secondary-text text-uppercase pb-2">Gallery</h6>
                                     {/* <h1 className="display-4">Checkout New Releases Of Our Courses</h1> */}
                                 </div>
                             </div>

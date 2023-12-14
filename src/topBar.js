@@ -3,18 +3,18 @@ import React, { Component } from 'react'
 export default class TopBar extends Component {
     render() {
         return (
-            <div className="container-fluid bg-dark">
+            <div className="container-fluid bg-dark footer-bg">
                 <div className="row py-2 px-lg-5">
-                    <div className="col-lg-6 text-center text-lg-left mb-2 mb-lg-0">
+                    <div className="col-lg-6 text-center text-lg-start mb-2 mb-lg-0">
                         <div className="d-inline-flex align-items-center text-white">
                             <a href='tel:8347763858'>
-                                <small className='text-white'><i className="fa fa-phone mr-2"></i>+91 834 776 3858</small>
+                                <small className='text-white'><i className="fa fa-phone me-2"></i>+91 834 776 3858</small>
                             </a>
                             {/* <!-- <small className="px-3">|</small>
-                                    <small><i className="fa fa-envelope mr-2"></i>hr@decodesofttech.com</small> --> */}
+                                    <small><i className="fa fa-envelope me-2"></i>hr@decodesofttech.com</small> --> */}
                         </div>
                     </div>
-                    <div className="col-lg-6 text-center text-lg-right">
+                    <div className="col-lg-6 text-center text-lg-end">
                         <div className="d-inline-flex align-items-center">
                             <a className="text-white px-2" target='_blank' href="https://www.facebook.com/Decode-Softtech-108716078502384">
                                 <i className="fab fa-facebook-f"></i>

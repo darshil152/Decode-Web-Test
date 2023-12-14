@@ -96,7 +96,7 @@ export default class paymentdetail extends Component {
                             return (
                                 <>
                                     <div className='viewmodel'>
-                                        <button className='btn btn-primary' onClick={() => this.openModal(value)}>View</button>
+                                        <button className='btn btn-primary primary-btn' onClick={() => this.openModal(value)}>View</button>
                                     </div>
                                 </>
                             );
@@ -603,7 +603,7 @@ export default class paymentdetail extends Component {
                                                 <h6 className='decodesoft mt-2'>304, Dhara Arcade, Mahadev chawk</h6>
                                                 <h6 className='decodesoft'>Mota varachha, surat</h6>
                                             </div>
-                                            <div className='col-lg-6  text-center text-lg-right' >
+                                            <div className='col-lg-6  text-center text-lg-end' >
                                                 <img src={logo} style={{ width: "200px", height: "70px", }} />
 
                                             </div>
@@ -699,7 +699,7 @@ export default class paymentdetail extends Component {
                                 <Button variant="secondary" onClick={this.closeModal}>
                                     Close
                                 </Button>
-                                <button id='print-btn' className="btn btn-primary me-2" onClick={() => { this.downloadAsPdf('#PrintDocument') }}>Download</button>
+                                <button id='print-btn' className="btn btn-primary primary-btn me-2" onClick={() => { this.downloadAsPdf('#PrintDocument') }}>Download</button>
 
                             </Modal.Footer>
                         </Modal>

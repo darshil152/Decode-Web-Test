@@ -148,7 +148,7 @@ export default class Adminleave extends Component {
                         customBodyRender: (value, tableMeta, updateValue) => {
                             return (
                                 <>
-                                    <button className='btn btn-primary' onClick={() => this.view(value)} type='submit'>View Proof</button>
+                                    <button className='btn btn-primary primary-btn' onClick={() => this.view(value)} type='submit'>View Proof</button>
 
                                 </>
                             );
@@ -166,7 +166,7 @@ export default class Adminleave extends Component {
                         customBodyRender: (value, tableMeta, updateValue) => {
                             return (
                                 <>
-                                    <button className='btn btn-primary' onClick={() => this.submitleave(value, tableMeta)} type='submit'>Submit</button>
+                                    <button className='btn btn-primary primary-btn' onClick={() => this.submitleave(value, tableMeta)} type='submit'>Submit</button>
 
                                 </>
                             );

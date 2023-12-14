@@ -78,7 +78,7 @@ export default class Courses extends Component {
                 <div className="row mx-0 justify-content-center pt-5">
                     <div className="col-lg-6">
                         <div className="section-title text-center position-relative mb-4">
-                            <h6 className="d-inline-block position-relative text-secondary text-uppercase pb-2">Our Courses</h6>
+                            <h6 className="d-inline-block position-relative text-secondary secondary-text text-uppercase pb-2">Our Courses</h6>
                             <h1 className="display-4">Checkout New Releases Of Our Courses</h1>
                         </div>
                     </div>
@@ -90,13 +90,13 @@ export default class Courses extends Component {
                             <h4 className="text-center text-white px-3">Web design course for beginners</h4>
                             {/* <!-- <div className="border-top w-100 mt-3">
                                             <div className="d-flex justify-content-between p-4">
-                                                <span className="text-white"><i className="fa fa-user mr-2"></i>Jhon Doe</span>
-                                                <span className="text-white"><i className="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                                                <span className="text-white"><i className="fa fa-user me-2"></i>Jhon Doe</span>
+                                                <span className="text-white"><i className="fa fa-star me-2"></i>4.5 <small>(250)</small></span>
                                             </div>
                                         </div> --> */}
                             <div className="w-100 bg-white text-center p-4">
-                                {/* <a className="btn btn-primary" href="detail.html">Course Detail</a> */}
-                                <Link className="btn btn-primary" to={'/details/1'}>Course Detail</Link>
+                                {/* <a className="btn btn-primary primary-btn" href="detail.html">Course Detail</a> */}
+                                <Link className="btn btn-primary primary-btn" to={'/details/1'}>Course Detail</Link>
                             </div>
                         </div>
                     </div>
@@ -106,13 +106,13 @@ export default class Courses extends Component {
                             <h4 className="text-center text-white px-3">Frontend development course for beginners</h4>
                             {/* <!-- <div className="border-top w-100 mt-3">
                                             <div className="d-flex justify-content-between p-4">
-                                                <span className="text-white"><i className="fa fa-user mr-2"></i>Jhon Doe</span>
-                                                <span className="text-white"><i className="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                                                <span className="text-white"><i className="fa fa-user me-2"></i>Jhon Doe</span>
+                                                <span className="text-white"><i className="fa fa-star me-2"></i>4.5 <small>(250)</small></span>
                                             </div>
                                         </div> --> */}
                             <div className="w-100 bg-white text-center p-4">
-                                {/* <a className="btn btn-primary" href="detail.html">Course Detail</a> */}
-                                <Link className="btn btn-primary" to={'/details/2'}>Course Detail</Link>
+                                {/* <a className="btn btn-primary primary-btn" href="detail.html">Course Detail</a> */}
+                                <Link className="btn btn-primary primary-btn" to={'/details/2'}>Course Detail</Link>
                             </div>
                         </div>
                     </div>
@@ -122,13 +122,13 @@ export default class Courses extends Component {
                             <h4 className="text-center text-white px-3">Backend development course for beginners</h4>
                             {/* <!-- <div className="border-top w-100 mt-3">
                                             <div className="d-flex justify-content-between p-4">
-                                                <span className="text-white"><i className="fa fa-user mr-2"></i>Jhon Doe</span>
-                                                <span className="text-white"><i className="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                                                <span className="text-white"><i className="fa fa-user me-2"></i>Jhon Doe</span>
+                                                <span className="text-white"><i className="fa fa-star me-2"></i>4.5 <small>(250)</small></span>
                                             </div>
                                         </div> --> */}
                             <div className="w-100 bg-white text-center p-4">
-                                {/* <a className="btn btn-primary" href="detail.html">Course Detail</a> */}
-                                <Link className="btn btn-primary" to={'/details/3'}>Course Detail</Link>
+                                {/* <a className="btn btn-primary primary-btn" href="detail.html">Course Detail</a> */}
+                                <Link className="btn btn-primary primary-btn" to={'/details/3'}>Course Detail</Link>
                             </div>
                         </div>
                     </div>
@@ -138,13 +138,13 @@ export default class Courses extends Component {
                             <h4 className="text-center text-white px-3">Fullstack development course for beginners</h4>
                             {/* <!-- <div className="border-top w-100 mt-3">
                                             <div className="d-flex justify-content-between p-4">
-                                                <span className="text-white"><i className="fa fa-user mr-2"></i>Jhon Doe</span>
-                                                <span className="text-white"><i className="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                                                <span className="text-white"><i className="fa fa-user me-2"></i>Jhon Doe</span>
+                                                <span className="text-white"><i className="fa fa-star me-2"></i>4.5 <small>(250)</small></span>
                                             </div>
                                         </div> --> */}
                             <div className="w-100 bg-white text-center p-4">
-                                {/* <a className="btn btn-primary" href="detail.html">Course Detail</a> */}
-                                <Link className="btn btn-primary" to={'/details/4'}>Course Detail</Link>
+                                {/* <a className="btn btn-primary primary-btn" href="detail.html">Course Detail</a> */}
+                                <Link className="btn btn-primary primary-btn" to={'/details/4'}>Course Detail</Link>
                             </div>
                         </div>
                     </div>
@@ -154,13 +154,13 @@ export default class Courses extends Component {
                             <h4 className="text-center text-white px-3">360 & 3D Web development course for beginners</h4>
                             {/* <!-- <div className="border-top w-100 mt-3">
                                             <div className="d-flex justify-content-between p-4">
-                                                <span className="text-white"><i className="fa fa-user mr-2"></i>Jhon Doe</span>
-                                                <span className="text-white"><i className="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                                                <span className="text-white"><i className="fa fa-user me-2"></i>Jhon Doe</span>
+                                                <span className="text-white"><i className="fa fa-star me-2"></i>4.5 <small>(250)</small></span>
                                             </div>
                                         </div> --> */}
                             <div className="w-100 bg-white text-center p-4">
-                                {/* <a className="btn btn-primary" href="detail.html">Course Detail</a> */}
-                                <Link className="btn btn-primary" to={'/details/5'}>Course Detail</Link>
+                                {/* <a className="btn btn-primary primary-btn" href="detail.html">Course Detail</a> */}
+                                <Link className="btn btn-primary primary-btn" to={'/details/5'}>Course Detail</Link>
                             </div>
                         </div>
                     </div>
@@ -170,13 +170,13 @@ export default class Courses extends Component {
                             <h4 className="text-center text-white px-3">Firebase course for beginners</h4>
                             {/* <!-- <div className="border-top w-100 mt-3">
                                             <div className="d-flex justify-content-between p-4">
-                                                <span className="text-white"><i className="fa fa-user mr-2"></i>Jhon Doe</span>
-                                                <span className="text-white"><i className="fa fa-star mr-2"></i>4.5 <small>(250)</small></span>
+                                                <span className="text-white"><i className="fa fa-user me-2"></i>Jhon Doe</span>
+                                                <span className="text-white"><i className="fa fa-star me-2"></i>4.5 <small>(250)</small></span>
                                             </div>
                                         </div> --> */}
                             <div className="w-100 bg-white text-center p-4">
-                                <Link className="btn btn-primary" to={'/details/6'}>Course Detail</Link>
-                                {/* <a className="btn btn-primary" href="detail.html">Course Detail</a> */}
+                                <Link className="btn btn-primary primary-btn" to={'/details/6'}>Course Detail</Link>
+                                {/* <a className="btn btn-primary primary-btn" href="detail.html">Course Detail</a> */}
                             </div>
                         </div>
                     </div>
@@ -187,7 +187,7 @@ export default class Courses extends Component {
                         <div className="bg-white p-5 my-5">
                             <h1 className="text-center mb-4"> For New Students</h1>
                             {/* <!-- <form > --> */}
-                            <div className="form-row">
+                            <div className="row">
                                 <div className="col-sm-6">
                                     <div className="form-group">
                                         <input onChange={this.handleChange} id="s-name" name='sname' value={this.state.sname} type="text" className="form-control bg-light border-0 pad-30-20"
@@ -201,10 +201,10 @@ export default class Courses extends Component {
                                     </div>
                                 </div>
                             </div>
-                            <div className="form-row">
+                            <div className="row">
                                 <div className="col-sm-6">
                                     <div className="form-group">
-                                        <select onChange={this.handleChange} name='ssubject' id="s-subject" className="custom-select bg-light border-0 px-3"
+                                        <select onChange={this.handleChange} name='ssubject' id="s-subject" className="form-select bg-light border-0 px-3"
                                             style={{ height: '60px' }}>
                                             <option value="">Select a course</option>
                                             <option value="webdesign">Master in Web Design</option>
@@ -219,7 +219,7 @@ export default class Courses extends Component {
                                     </div>
                                 </div>
                                 <div className="col-sm-6">
-                                    <button className="btn btn-primary btn-block"
+                                    <button className="btn btn-primary primary-btn btn-block"
                                         style={{ height: '60px' }} onClick={this.handleSignup}>Sign Up
                                         Now</button>
                                 </div>

@@ -86,7 +86,7 @@ export default class Contact extends Component {
                         <div className="col-lg-5 mb-5 mb-lg-0 p-0">
                             <div className="bg-light d-flex flex-column justify-content-center px-2 px-md-5" style={{ height: '500px' }}>
                                 <div className="d-flex align-items-center mb-5">
-                                    <div className="btn-icon bg-primary mr-4">
+                                    <div className="btn-icon bg-primary primary-btn me-4">
                                         <a className="text-white" href="https://goo.gl/maps/tY68pnXuMjLQ1Jc19" target="_blank">
                                             <i className="fa fa-2x fa-map-marker-alt text-white"></i>
                                         </a>
@@ -98,7 +98,7 @@ export default class Contact extends Component {
                                     </div>
                                 </div>
                                 <div className="d-flex align-items-center mb-5">
-                                    <div className="btn-icon bg-secondary mr-4">
+                                    <div className="btn-icon bg-secondary secondary-btn me-4">
                                         <i className="fa fa-2x fa-phone text-white"></i>
                                     </div>
                                     <div className="mt-n1">
@@ -107,7 +107,7 @@ export default class Contact extends Component {
                                     </div>
                                 </div>
                                 <div className="d-flex align-items-center">
-                                    <div className="btn-icon bg-warning mr-4">
+                                    <div className="btn-icon bg-warning me-4">
                                         <i className="fa fa-2x fa-envelope text-white"></i>
                                     </div>
                                     <div className="mt-n1">
@@ -119,7 +119,7 @@ export default class Contact extends Component {
                         </div>
                         <div className="col-lg-7">
                             <div className="section-title position-relative mb-4">
-                                <h6 className="d-inline-block position-relative text-secondary text-uppercase pb-2">Need Help?</h6>
+                                <h6 className="d-inline-block position-relative text-secondary secondary-text text-uppercase pb-2">Need Help?</h6>
                                 <h1 className="display-4">Send Us A Message</h1>
                             </div>
                             <Formik
@@ -149,14 +149,14 @@ export default class Contact extends Component {
                                             <div className="row">
                                                 <div className="col-sm-6 form-group">
                                                     <input  {...formAttr(runform, "cname")} name='cname' type="text" id="c-name"
-                                                        className="form-control contact-form border-top-0 border-right-0 border-left-0 p-0"
+                                                        className="form-control contact-form border-top-0 border-end-0 border-start-0 p-0"
                                                         placeholder="Your Name" />
                                                     {errorContainer(runform, "cname")}
 
                                                 </div>
                                                 <div className="col-sm-6 form-group">
                                                     <input type="email" {...formAttr(runform, "cemail")} name='cemail' id="c-email"
-                                                        className="form-control contact-form border-top-0 border-right-0 border-left-0 p-0"
+                                                        className="form-control contact-form border-top-0 border-end-0 border-start-0 p-0"
                                                         placeholder="Your Email" />
                                                     {errorContainer(runform, "cemail")}
 
@@ -165,7 +165,7 @@ export default class Contact extends Component {
                                             <div className="row">
                                                 <div className="col-sm-6">
                                                     <div className="form-group">
-                                                        <select className="form-control contact-form border-top-0 border-right-0 border-left-0 p-0"
+                                                        <select className="form-control contact-form border-top-0 border-end-0 border-start-0 p-0"
                                                             name="csubject"
                                                             {...formAttr(runform, "courses")}
                                                         >
@@ -197,20 +197,20 @@ export default class Contact extends Component {
                                                 </div>
                                                 <div className="form-group col-sm-6">
                                                     <input {...formAttr(runform, "cphone")} name='cphone' type="text" id="c-number"
-                                                        className="form-control contact-form border-top-0 border-right-0 border-left-0 p-0"
+                                                        className="form-control contact-form border-top-0 border-end-0 border-start-0 p-0"
                                                         placeholder="Enter Contact Number" />
                                                     {errorContainer(runform, "cphone")}
 
                                                 </div>
                                             </div>
                                             <div className="form-group col-12 ">
-                                                <textarea {...formAttr(runform, "cmessage")} name='cmessage' className="form-control  border-top-0 border-right-0 border-left-0 p-0" rows="5"
+                                                <textarea {...formAttr(runform, "cmessage")} name='cmessage' className="form-control  border-top-0 border-end-0 border-start-0 p-0" rows="5"
                                                     id="c-message" placeholder="Message" ></textarea>
                                                 {errorContainer(runform, "cmessage")}
 
                                             </div>
                                             <div>
-                                                <button type='submit' className="btn btn-primary py-3 px-5" >Send Message</button>
+                                                <button type='submit' className="btn btn-primary primary-btn py-3 px-5" >Send Message</button>
                                             </div>
                                             {/* <!-- </form> --> */}
                                         </div>

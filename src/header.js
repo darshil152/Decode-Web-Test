@@ -21,7 +21,7 @@ export default class Header extends Component {
                                     <input type="text" className="form-control border-light" style="padding: 30px 25px;"
                                         placeholder="Keyword">
                                         <div className="input-group-append">
-                                            <button className="btn btn-secondary px-4 px-lg-5">Search</button>
+                                            <button className="btn btn-secondary secondary-btn px-4 px-lg-5">Search</button>
                                         </div>
                                 </div>
                             </div> --> */}

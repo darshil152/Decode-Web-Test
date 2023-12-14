@@ -43,7 +43,7 @@ export default function Comment(props) {
                 value={comment}
                 onChange={(e) => setComment(e.target.value)}
             />
-            <button className="col-lg-0 col-md-0 col-sm-0 btn btn-primary" onClick={handlesubmit}>OK</button>
+            <button className="col-lg-0 col-md-0 col-sm-0 btn btn-primary primary-btn" onClick={handlesubmit}>OK</button>
         </div>
     );
 }

@@ -220,7 +220,7 @@ function Studentsidebar(props) {
 
                                 <Modal.Footer style={{ textAlign: "center", }} className="mb-3">
                                     <button className="btn btn-danger abct" style={{ width: "90px" }} onClick={handleClose}>Yes</button>
-                                    <button className="btn btn-primary danger" style={{ width: "90px" }} onClick={handleCloseNo}>No</button>
+                                    <button className="btn btn-primary primary-btn danger" style={{ width: "90px" }} onClick={handleCloseNo}>No</button>
 
                                 </Modal.Footer>
                             </Modal>

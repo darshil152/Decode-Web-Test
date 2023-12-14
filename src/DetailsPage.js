@@ -85,7 +85,7 @@ export default class DetailsPage extends Component {
                             <div className="col-lg-8">
                                 <div className="mb-5">
                                     <div className="section-title position-relative mb-5">
-                                        <h6 className="d-inline-block position-relative text-secondary text-uppercase pb-2">Course
+                                        <h6 className="d-inline-block position-relative text-secondary secondary-text text-uppercase pb-2">Course
                                             Detail</h6>
                                         <h1 className="display-4">{this.state.courseTitle}</h1>
                                     </div>
@@ -105,8 +105,8 @@ export default class DetailsPage extends Component {
                                             <h4 className="text-center text-white px-3">Master in Web Design</h4>
                                             {/* <!-- <div className="border-top w-100 mt-3">
                                                 <div className="d-flex justify-content-between p-4">
-                                                    <span className="text-white"><i className="fa fa-user mr-2"></i>Jhon Doe</span>
-                                                    <span className="text-white"><i className="fa fa-star mr-2"></i>4.5
+                                                    <span className="text-white"><i className="fa fa-user me-2"></i>Jhon Doe</span>
+                                                    <span className="text-white"><i className="fa fa-star me-2"></i>4.5
                                                         <small>(250)</small></span>
                                                 </div>
                                             </div> --> */}
@@ -120,8 +120,8 @@ export default class DetailsPage extends Component {
                                             <h4 className="text-center text-white px-3">Master in Frontend Development</h4>
                                             {/* <!-- <div className="border-top w-100 mt-3">
                                                 <div className="d-flex justify-content-between p-4">
-                                                    <span className="text-white"><i className="fa fa-user mr-2"></i>Jhon Doe</span>
-                                                    <span className="text-white"><i className="fa fa-star mr-2"></i>4.5
+                                                    <span className="text-white"><i className="fa fa-user me-2"></i>Jhon Doe</span>
+                                                    <span className="text-white"><i className="fa fa-star me-2"></i>4.5
                                                         <small>(250)</small></span>
                                                 </div>
                                             </div> --> */}
@@ -135,8 +135,8 @@ export default class DetailsPage extends Component {
                                             <h4 className="text-center text-white px-3">Master in Backend Development</h4>
                                             {/* <!-- <div className="border-top w-100 mt-3">
                                                 <div className="d-flex justify-content-between p-4">
-                                                    <span className="text-white"><i className="fa fa-user mr-2"></i>Jhon Doe</span>
-                                                    <span className="text-white"><i className="fa fa-star mr-2"></i>4.5
+                                                    <span className="text-white"><i className="fa fa-user me-2"></i>Jhon Doe</span>
+                                                    <span className="text-white"><i className="fa fa-star me-2"></i>4.5
                                                         <small>(250)</small></span>
                                                 </div>
                                             </div> --> */}
@@ -150,8 +150,8 @@ export default class DetailsPage extends Component {
                                             <h4 className="text-center text-white px-3">Master in Fullstack Development</h4>
                                             {/* <!-- <div className="border-top w-100 mt-3">
                                                 <div className="d-flex justify-content-between p-4">
-                                                    <span className="text-white"><i className="fa fa-user mr-2"></i>Jhon Doe</span>
-                                                    <span className="text-white"><i className="fa fa-star mr-2"></i>4.5
+                                                    <span className="text-white"><i className="fa fa-user me-2"></i>Jhon Doe</span>
+                                                    <span className="text-white"><i className="fa fa-star me-2"></i>4.5
                                                         <small>(250)</small></span>
                                                 </div>
                                             </div> --> */}
@@ -164,7 +164,7 @@ export default class DetailsPage extends Component {
                             </div>
 
                             <div className="col-lg-4 mt-5 mt-lg-0">
-                                <div className="bg-primary mb-5 py-3">
+                                <div className="bg-primary primary-btn mb-5 py-3">
                                     <h3 className="text-white py-3 px-4 m-0">Course Features</h3>
                                     <div className="d-flex justify-content-between border-bottom px-4">
                                         <h6 className="text-white my-3">Instructor</h6>
@@ -194,8 +194,8 @@ export default class DetailsPage extends Component {
                                     </div>
                                     <h5 className="text-white py-3 px-4 m-0">100% Job Guarantee</h5>
                                     <div className="py-3 px-4">
-                                        <Link className="btn btn-block btn-secondary py-3 px-5" to={'/contact'}>Enroll Now</Link>
-                                        {/* <a className="btn btn-block btn-secondary py-3 px-5" href="contact.html">Enroll Now</a> */}
+                                        <Link className="btn btn-block btn-secondary secondary-btn py-3 px-5" to={'/contact'}>Enroll Now</Link>
+                                        {/* <a className="btn btn-block btn-secondary secondary-btn py-3 px-5" href="contact.html">Enroll Now</a> */}
                                     </div>
                                 </div>
 
@@ -240,48 +240,48 @@ export default class DetailsPage extends Component {
                                     <a className="d-flex align-items-center text-decoration-none mb-4" href="/details/2">
 
                                         <img className="img-width-80 rounded" src={reacticon} alt="" />
-                                        <div className="pl-3">
+                                        <div className="ps-3">
                                             <h6>React Js</h6>
                                             {/* <!-- <div className="d-flex">
-                                                <small className="text-body mr-3"><i className="fa fa-user text-primary mr-2"></i>Jhon
+                                                <small className="text-body me-3"><i className="fa fa-user text-primary secondary-text me-2"></i>Jhon
                                                     Doe</small>
-                                                <small className="text-body"><i className="fa fa-star text-primary mr-2"></i>4.5
+                                                <small className="text-body"><i className="fa fa-star text-primary secondary-text me-2"></i>4.5
                                                     (250)</small>
                                             </div> --> */}
                                         </div>
                                     </a>
                                     <a className="d-flex align-items-center text-decoration-none mb-4" href="/details/3">
                                         <img className="img-width-80 rounded" src={nodeicon} alt="" />
-                                        <div className="pl-3">
+                                        <div className="ps-3">
                                             <h6>Node Js</h6>
                                             {/* <!-- <div className="d-flex">
-                                                <small className="text-body mr-3"><i className="fa fa-user text-primary mr-2"></i>Jhon
+                                                <small className="text-body me-3"><i className="fa fa-user text-primary secondary-text me-2"></i>Jhon
                                                     Doe</small>
-                                                <small className="text-body"><i className="fa fa-star text-primary mr-2"></i>4.5
+                                                <small className="text-body"><i className="fa fa-star text-primary secondary-text me-2"></i>4.5
                                                     (250)</small>
                                             </div> --> */}
                                         </div>
                                     </a>
                                     <a className="d-flex align-items-center text-decoration-none mb-4" href="/details/6">
                                         <img className="img-width-80 rounded" src={firebaseicon} alt="" />
-                                        <div className="pl-3">
+                                        <div className="ps-3">
                                             <h6>Firebase</h6>
                                             {/* <!-- <div className="d-flex">
-                                                <small className="text-body mr-3"><i className="fa fa-user text-primary mr-2"></i>Jhon
+                                                <small className="text-body me-3"><i className="fa fa-user text-primary secondary-text me-2"></i>Jhon
                                                     Doe</small>
-                                                <small className="text-body"><i className="fa fa-star text-primary mr-2"></i>4.5
+                                                <small className="text-body"><i className="fa fa-star text-primary secondary-text me-2"></i>4.5
                                                     (250)</small>
                                             </div> --> */}
                                         </div>
                                     </a>
                                     <a className="d-flex align-items-center text-decoration-none" href="/details/5">
                                         <img className="img-width-80 rounded" src={aframeicon} alt="" />
-                                        <div className="pl-3">
+                                        <div className="ps-3">
                                             <h6>Aframe</h6>
                                             {/* <!-- <div className="d-flex">
-                                                    <small className="text-body mr-3"><i className="fa fa-user text-primary mr-2"></i>Jhon
+                                                    <small className="text-body me-3"><i className="fa fa-user text-primary secondary-text me-2"></i>Jhon
                                                         Doe</small>
-                                                    <small className="text-body"><i className="fa fa-star text-primary mr-2"></i>4.5
+                                                    <small className="text-body"><i className="fa fa-star text-primary secondary-text me-2"></i>4.5
                                                         (250)</small>
                                                 </div> --> */}
                                         </div>

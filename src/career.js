@@ -266,7 +266,7 @@ export default class Career extends Component {
                                     <p className=' mt-3 graphicexp'>Experience 0-5 years (02 Positions)</p>
 
                                     <div className='crr-jobs-box-btm mt-auto'>
-                                        <button type='button' className='btn btn-primary' style={{ borderRadius: "10px" }} onClick={() => this.openModal(this.state.graphics)}>
+                                        <button type='button' className='btn btn-primary primary-btn' style={{ borderRadius: "10px" }} onClick={() => this.openModal(this.state.graphics)}>
                                             Apply Now
                                         </button>
                                     </div>
@@ -279,7 +279,7 @@ export default class Career extends Component {
                                     <h5 className=' mt-3 graphicsdesigner'>Fullstack Developer </h5>
                                     <p className=' mt-3 graphicexp'>Experience 0-5 years (02 Positions)</p>
                                     <div className='crr-jobs-box-btm mt-auto'>
-                                        <button type='button' className='btn btn-primary' style={{ borderRadius: "10px" }} onClick={() => this.openModal(this.state.fullstack)}>
+                                        <button type='button' className='btn btn-primary primary-btn' style={{ borderRadius: "10px" }} onClick={() => this.openModal(this.state.fullstack)}>
                                             Apply Now
                                         </button>
                                     </div>
@@ -294,7 +294,7 @@ export default class Career extends Component {
                                     <p className=' mt-3 graphicexp'>Experience 0-5 years (02 Positions)</p>
 
                                     <div className='crr-jobs-box-btm mt-auto'>
-                                        <button type='button' className='btn btn-primary' style={{ borderRadius: "10px" }} onClick={() => this.openModal(this.state.flutter)}>
+                                        <button type='button' className='btn btn-primary primary-btn' style={{ borderRadius: "10px" }} onClick={() => this.openModal(this.state.flutter)}>
                                             Apply Now
                                         </button>
                                     </div>
@@ -431,11 +431,11 @@ export default class Career extends Component {
 
 
 
-                                                    <button type="submit" className='btn btn-primary mt-3' disabled={isSubmitting}>
+                                                    <button type="submit" className='btn btn-primary primary-btn mt-3' disabled={isSubmitting}>
                                                         Submit
                                                     </button>
 
-                                                    <button className="btn btn-danger mt-3 ml-3" onClick={this.closeModal}>
+                                                    <button className="btn btn-danger mt-3 ms-3" onClick={this.closeModal}>
                                                         Close
                                                     </button>
 

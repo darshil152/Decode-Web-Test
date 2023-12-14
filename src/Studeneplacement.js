@@ -500,9 +500,9 @@ export default function Studeneplacement() {
             <StudentLayout>
                 <div className="content-main-section left">
                     <div className="container">
-                        <button className='btn btn-primary ml-5' style={{ marginTop: "55px" }} onClick={handleShow10}>Companies which applied by me</button>
+                        <button className='btn btn-primary primary-btn ms-5' style={{ marginTop: "55px" }} onClick={handleShow10}>Companies which applied by me</button>
 
-                        <button className='btn btn-primary ml-5' style={{ marginTop: "55px" }} onClick={handleShow4}>Upload Your resume Here  +</button>
+                        <button className='btn btn-primary primary-btn ms-5' style={{ marginTop: "55px" }} onClick={handleShow4}>Upload Your resume Here  +</button>
                         <div className="row">
                             <div className="col-lg-12">
                                 <h1 className='text-center mt-5 mb-3' >Terms and condition for placement.</h1>
@@ -530,7 +530,7 @@ export default function Studeneplacement() {
                                             <div className="wrapper col-lg-4 col-sm-6 mb-4">
                                                 <div className="card">
                                                     <img src={i.logo} className='plogo' />
-                                                    <div className="mr-5 info aaaa">
+                                                    <div className="me-5 info aaaa">
                                                         <h1 style={{ color: "#96bfe6", fontSize: "30px" }}>{i.companyname}</h1 >
                                                         <h1 style={{ color: "#96bfe6", fontSize: "40px" }}>{i.jobrole == 1 ? <label className="labelDatass" style={{ color: "white" }}>Master In Webdesign</label> : i.jobrole == 2 ? <label className="labelDatass" style={{ color: "white" }}>Master In Frontend Development</label> : i.jobrole == 3 ? <label className="labelDatass" style={{ color: "white" }}>Master In backend Development </label> : i.jobrole == 4 ? <label className="labelDatass" style={{ color: "white" }}>firebase </label> : i.jobrole == 5 ? <label className="labelDatass" style={{ color: "white" }}>Master in 360 & 3D Website</label> : i.jobrole == 6 ? <label className="labelDatass" style={{ color: "white" }}>Master In Fullstack Development</label> : i.jobrole == 7 ? <label className="labelDatass" style={{ color: "white" }}>Master In MERN-stack Development</label> : <div className='rendercon'></div>}</h1>
 
@@ -541,11 +541,11 @@ export default function Studeneplacement() {
                                                                 <label className="labelDatass" style={{ color: "white" }}>Apply by:</label>
                                                             </div>
                                                             <div className="b">
-                                                                <h5 style={{ color: "#96bfe6", fontSize: "20px" }} className='ml-2'> &nbsp;{i.applyby.length}</h5>
+                                                                <h5 style={{ color: "#96bfe6", fontSize: "20px" }} className='ms-2'> &nbsp;{i.applyby.length}</h5>
                                                             </div>
                                                         </div>
 
-                                                        <button className='btn btn-primary sss' onClick={() => handleShow(i)}>Show detail</button>
+                                                        <button className='btn btn-primary primary-btn sss' onClick={() => handleShow(i)}>Show detail</button>
                                                     </div>
                                                 </div>
 
@@ -566,7 +566,7 @@ export default function Studeneplacement() {
                                                     <div className="wrappers" >
                                                         <div className="card">
                                                             <img src={i.logo} className='plogo' />
-                                                            <div className="mr-5 info aaaa">
+                                                            <div className="me-5 info aaaa">
                                                                 <h1 style={{ color: "#96bfe6", fontSize: "30px" }}>{i.companyname}</h1 >
                                                                 <h1 style={{ color: "#96bfe6", fontSize: "40px" }}>{i.jobrole == 1 ? <label className="labelDatass" style={{ color: "white" }}>Master In Webdesign</label> : i.jobrole == 2 ? <label className="labelDatass" style={{ color: "white" }}>Master In Frontend Development</label> : i.jobrole == 3 ? <label className="labelDatass" style={{ color: "white" }}>Master In backend Development </label> : i.jobrole == 4 ? <label className="labelDatass" style={{ color: "white" }}>firebase </label> : i.jobrole == 5 ? <label className="labelDatass" style={{ color: "white" }}>Master in 360 & 3D Website</label> : i.jobrole == 6 ? <label className="labelDatass" style={{ color: "white" }}>Master In Fullstack Development</label> : i.jobrole == 7 ? <label className="labelDatass" style={{ color: "white" }}>Master In MERN-stack Development</label> : <div className='rendercon'></div>}</h1>
 
@@ -578,7 +578,7 @@ export default function Studeneplacement() {
                                                                         <label className="labelDatass" style={{ color: "white" }}>Apply by:</label>
                                                                     </div>
                                                                     <div className="b">
-                                                                        <h5 style={{ color: "#96bfe6", fontSize: "20px" }} className='ml-2'> &nbsp;{i.applyby.length}</h5>
+                                                                        <h5 style={{ color: "#96bfe6", fontSize: "20px" }} className='ms-2'> &nbsp;{i.applyby.length}</h5>
                                                                     </div>
                                                                 </div>
 
@@ -608,7 +608,7 @@ export default function Studeneplacement() {
                                                                 <img className="plogos" src={showdata.logo} alt="Card image cap" />
                                                             </div>
                                                             <div className="row">
-                                                                <div className="col lg-6 ml-3  mt-4">
+                                                                <div className="col lg-6 ms-3  mt-4">
                                                                     <label className="labelDatass">Company Name:</label>
                                                                 </div>
                                                                 <div className="col-lg-6 text-left mt-4" >
@@ -617,7 +617,7 @@ export default function Studeneplacement() {
                                                             </div>
 
                                                             <div className="row">
-                                                                <div className="col lg-6 ml-3  mt-4">
+                                                                <div className="col lg-6 ms-3  mt-4">
                                                                     <label className="labelDatass">Company website:</label>
                                                                 </div>
                                                                 <div className="col-lg-6 text-left mt-4" >
@@ -626,7 +626,7 @@ export default function Studeneplacement() {
                                                             </div>
 
                                                             <div className="row">
-                                                                <div className="col lg-6 ml-3 mt-4">
+                                                                <div className="col lg-6 ms-3 mt-4">
                                                                     <label className="labelDatass">Job role:</label>
                                                                 </div>
                                                                 <div className="col-lg-6 text-left mt-4" >
@@ -667,7 +667,7 @@ export default function Studeneplacement() {
                                                         {alreadyApplied ? <Button variant="btn btn-danger" id="del" onClick={() => handleDelete(showdata)}>
                                                             Withdraw your application
                                                         </Button> :
-                                                            <Button variant="btn btn-primary" onClick={() => handleShow1(showdata)}>
+                                                            <Button variant="btn btn-primary primary-btn" onClick={() => handleShow1(showdata)}>
                                                                 Apply Now
                                                             </Button>}
 
@@ -696,7 +696,7 @@ export default function Studeneplacement() {
                                                                     <img className="plogos" src={showdata.logo} alt="Card image cap" />
                                                                 </div>
                                                                 <div className="row">
-                                                                    <div className="col lg-6 ml-3  mt-4">
+                                                                    <div className="col lg-6 ms-3  mt-4">
                                                                         <label className="labelDatass">Cmp Name:</label>
                                                                     </div>
                                                                     <div className="col-lg-6 text-left mt-4" >
@@ -705,7 +705,7 @@ export default function Studeneplacement() {
                                                                 </div>
 
                                                                 <div className="row">
-                                                                    <div className="col lg-6 ml-3  mt-4">
+                                                                    <div className="col lg-6 ms-3  mt-4">
                                                                         <label className="labelDatass">Cmp website:</label>
                                                                     </div>
                                                                     <div className="col-lg-6 text-left mt-4" >
@@ -714,7 +714,7 @@ export default function Studeneplacement() {
                                                                 </div>
 
                                                                 <div className="row">
-                                                                    <div className="col lg-6 ml-3 mt-4">
+                                                                    <div className="col lg-6 ms-3 mt-4">
                                                                         <label className="labelDatass">Job role:</label>
                                                                     </div>
                                                                     <div className="col-lg-6 text-left mt-4" >
@@ -827,7 +827,7 @@ export default function Studeneplacement() {
                                                 <div className="wrapper">
                                                     <div className="card mb-4"  >
                                                         <img src={item.logo} className='plogo' />
-                                                        <div className="mr-5 info aaaa">
+                                                        <div className="me-5 info aaaa">
                                                             <h1 style={{ color: "#96bfe6", fontSize: "30px" }}>{item.companyname}</h1 >
                                                             <h1 style={{ color: "#96bfe6", fontSize: "40px" }}>{item.jobrole == 1 ? <label className="labelDatass" style={{ color: "white" }}>Master In Webdesign</label> : item.jobrole == 2 ? <label className="labelDatass" style={{ color: "white" }}>Master In Frontend Development</label> : item.jobrole == 3 ? <label className="labelDatass" style={{ color: "white" }}>Master In backend Development </label> : item.jobrole == 4 ? <label className="labelDatass" style={{ color: "white" }}>firebase </label> : item.jobrole == 5 ? <label className="labelDatass" style={{ color: "white" }}>Master in 360 & 3D Website</label> : item.jobrole == 6 ? <label className="labelDatass" style={{ color: "white" }}>Master In Fullstack Development</label> : item.jobrole == 7 ? <label className="labelDatass" style={{ color: "white" }}>Master In MERN-stack Development</label> : <div className='rendercon'></div>}</h1>
 
