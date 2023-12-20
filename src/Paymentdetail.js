@@ -5,6 +5,7 @@ import firebaseApp from './firebase/firebase';
 import MUIDataTable from "mui-datatables";
 import { Modal, Button } from "react-bootstrap";
 
+import { PDFExport, savePDF } from '@progress/kendo-react-pdf';
 import converter from 'number-to-words'
 import StudentLayout from './studentlayout/studentlayout';
 import { throwIfEmpty } from 'rxjs';
@@ -19,10 +20,12 @@ const logo = 'https://firebasestorage.googleapis.com/v0/b/hey1-portfolio.appspot
 export default class paymentdetail extends Component {
 
 
+
+
     constructor(props) {
         super(props);
 
-
+        this.pdfExportComponent = React.createRef();
         this.state = {
             totalPaidAmount: 0,
             refealldata: [],
@@ -213,16 +216,20 @@ export default class paymentdetail extends Component {
     closeModal = () => this.setState({ isOpen: false });
 
 
-    downloadAsPdf = (selector) => {
-        document.getElementById('print-btn').setAttribute('disabled', 'disabled')
-        let name = this.state.currentdata.er_num + '-' + this.state.installMentNo + '.pdf'
-        kendo.drawing.drawDOM($(selector)).then(function (group) {
+    // downloadAsPdf = (selector) => {
+    //     document.getElementById('print-btn').setAttribute('disabled', 'disabled')
+    //     let name = this.state.currentdata.er_num + '-' + this.state.installMentNo + '.pdf'
+    //     kendo.drawing.drawDOM($(selector)).then(function (group) {
 
-            kendo.drawing.pdf.saveAs(group, name);
-        });
-        document.getElementById('print-btn').removeAttribute('disabled')
+    //         kendo.drawing.pdf.saveAs(group, name);
+    //     });
+    //     document.getElementById('print-btn').removeAttribute('disabled')
+    // }
+
+
+    downloadAsPdf = () => {
+        savePDF(this.pdfExportComponent.current, { paperSize: "A3" });
     }
-
 
     numbertoword = () => {
         let final = converter.toWords(Number(this.state.currentFeesData.amount));
@@ -593,7 +600,7 @@ export default class paymentdetail extends Component {
 
 
                         <Modal show={this.state.isOpen} centered={this.state.ismobileDevice ? true : false} onHide={this.closeModal} >
-                            <div id='PrintDocument'>
+                            <div id='PrintDocument' ref={this.pdfExportComponent}>
                                 <Modal.Header >
                                     <div className='container'>
                                         <div className='row'>
@@ -699,7 +706,7 @@ export default class paymentdetail extends Component {
                                 <Button variant="secondary" onClick={this.closeModal}>
                                     Close
                                 </Button>
-                                <button id='print-btn' className="btn btn-primary primary-btn me-2" onClick={() => { this.downloadAsPdf('#PrintDocument') }}>Download</button>
+                                <button id='print-btn' className="btn btn-primary me-2" onClick={() => { this.downloadAsPdf('#PrintDocument') }}>Download</button>
 
                             </Modal.Footer>
                         </Modal>
